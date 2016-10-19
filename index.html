@@ -18,11 +18,23 @@
 <body>
 
 
-  <h1>Play Rock, Paper, Scissors</h1>
+  <h1>Play Rock, Paper, Scissors, Lizard, Spock</h1>
+  <h2>Keep Clicking to Keep Playing</h2>
+  <div id="options">
+    <div id="rock" class="choice"><button class="fancy-btn compare" onclick="compare('rock', computerChoice);">rock</button></div>
+    <div id="paper" class="choice"><button class="fancy-btn compare" onclick="compare('paper', computerChoice);">paper</button></div>
+    <div id="scissors" class="choice"><button class="fancy-btn compare" onclick="compare('scissors', computerChoice);">scissors</button></div>
+    <div id="spock" class="choice"><button class="fancy-btn compare" onclick="compare('spock', computerChoice);">spock</button></div>
+    <div id="lizard" class="choice"><button class="fancy-btn compare" onclick="compare('lizard', computerChoice);">lizard</button></div>
+  </div>
+  <br><br><br><br><br><br>
 
-  <p><button class="fancy-btn compare" onclick="compare(userChoice, computerChoice);">Compare</button></p>
+  <div id="computerChoice"></div>
+  <br><br><br>
   <div id="result"></div>
-  <p><button class="fancy-btn again" onclick="playAgain();">Play Again?</button></p>
+  <br><br><br>
+  <div id="myscore"></div>
+  <p><button class="fancy-btn again" onclick="playAgain();">Start Over?</button></p>
 
 
 

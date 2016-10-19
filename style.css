@@ -1,4 +1,4 @@
-h1,
+h1, h2,
 p {
   text-align: center;
 }
@@ -24,4 +24,9 @@ p {
 }
 .again {
   display: none;
+}
+.choice{
+  width:20vw;
+  float:left;
+  text-align: center;
 }
